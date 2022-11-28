@@ -32,4 +32,16 @@ frutas.append("manga")
 print(len(frutas))
 print(frutas)
 
-    
+i = 0
+while(i<4):
+  print(frutas[i])
+  i=i+1
+
+#poderia ser com len tb. No caso acima, caso eu acrescentasse uma nova fruta ele não mostraria pois eu precisaria atualizar o <4
+  
+#while(i<len(frutas)):
+  #print(frutas[i])
+  #i=i+1
+print("Exemplo de frutas com FOR")
+for fruta in frutas:
+  print(fruta)
